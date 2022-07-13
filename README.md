@@ -1,8 +1,6 @@
 # Final-Software
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=Mauricio-Bernuy_Final-Software)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Mauricio-Bernuy_Final-Software&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Mauricio-Bernuy_Final-Software)
 
- 
 ## Run Flask server with
 ```
 python main.py
