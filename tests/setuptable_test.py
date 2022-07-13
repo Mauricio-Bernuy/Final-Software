@@ -1,6 +1,6 @@
 from time import sleep
 import pytest
-import setuptable
+import src.setuptable as setuptable
 
 
 success_msg = 'Success: Login Sucessful.'

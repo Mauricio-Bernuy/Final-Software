@@ -1,6 +1,5 @@
-from tokenize import String
 from flask import Flask, Response, request, jsonify
-import setuptable 
+import src.setuptable as setuptable 
 
 def create_app():
     app = Flask(__name__)
