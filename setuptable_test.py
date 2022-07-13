@@ -15,7 +15,7 @@ def try_login():
 def test_my_server():  #pragma: no cover
 
     def test_login_correct_user_and_password():    
-        assert try_login("munay", "munay!") == success_msg
+        assert try_login() == success_msg
 
     
     try:
