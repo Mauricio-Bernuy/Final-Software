@@ -1,8 +1,15 @@
 # Final-Software
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=Mauricio-Bernuy_Final-Software)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Mauricio-Bernuy_Final-Software&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Mauricio-Bernuy_Final-Software)
+
  
 ## Run Flask server with
 ```
 python main.py
+```
+## JMeter
+```
+Test Plan.jmx
 ```
 
 # Stress Tests:
@@ -19,3 +26,4 @@ python main.py
 ![alt text](/imgs/sub3.png "Title")
 ![alt text](/imgs/sub4.png "Title")
 ![alt text](/imgs/sub5.png "Title")
+
