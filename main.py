@@ -38,9 +38,9 @@ def msg():
 def listmessages(topic=None):
     topic = (topic)
 
-    list = setuptable.getmessagesbytopic(topic)
+    msg_list = setuptable.getmessagesbytopic(topic)
     
-    return jsonify(list)
+    return jsonify(msg_list)
 
 @app.errorhandler(Exception)
 def exception_handler(error):
