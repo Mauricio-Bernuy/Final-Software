@@ -1,25 +1,24 @@
 from time import sleep
-import pytest
 import src.setuptable as setuptable
 
 
-success_msg = 'Success: Login Sucessful.'
-error_msg = 'Error: Invalid Credentials. Please try again.' 
+success_msg = 'ok'
+error_msg = 'fail' 
 test_url = "http://localhost:8000/index"
 
 
-def try_login():
+def try_test():
     txt = success_msg
     return txt
 
 def test_my_server():  #pragma: no cover
 
-    def test_login_correct_user_and_password():    
-        assert try_login() == success_msg
+    def test_1():    
+        assert try_test() == success_msg
 
     
     try:
-        test_login_correct_user_and_password()
+        test_1()
     
     finally:
         print("ok!")
